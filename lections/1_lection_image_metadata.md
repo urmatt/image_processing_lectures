@@ -431,7 +431,7 @@ def read_png_metadata(filepath: str) -> dict:
 
 
 # Использование:
-meta = read_png_metadata("screenshot.png")
+meta = read_png_metadata("png_image_1.png")
 ```
 
 ### 5.5. Чтение метаданных с помощью piexif

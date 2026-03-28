@@ -8,7 +8,7 @@ img = np.array(Image.open(cwd / "images" / "dream_of.jpg"))
 
 # Вырезаем прямоугольник: строки 100–200, столбцы 150–300
 # Формат: img[y_start:y_end, x_start:x_end]
-crop = img[350:600, 550:850]
+crop = img[380:550, 580:800]
 
 print(f"Оригинал: {img.shape}")    # (H, W, 3)
 print(f"Фрагмент: {crop.shape}")   # (100, 150, 3)

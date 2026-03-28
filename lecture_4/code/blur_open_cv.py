@@ -15,7 +15,7 @@ blur_box = cv2.blur(img, (blur_box_size, blur_box_size))
 blur_gauss = cv2.GaussianBlur(img, (blur_box_size, blur_box_size), 0)
 
 # Медианное размытие (хорошо убирает «шум соль-перец»)
-blur_median = cv2.medianBlur(img, blur_box_size)
+# blur_median = cv2.medianBlur(img, blur_box_size)
 
 _path = Path(cwd / "images" / "best_view_blurred.jpg")
 _path.unlink(missing_ok=True)
